@@ -21,7 +21,7 @@ public class BlogTest {
 
   @Before
   public void setUp() throws Exception {
-    driver = new RemoteWebDriver(new URL("http://hub:4444/wd/hub"),
+    driver = new RemoteWebDriver(new URL("http://52.66.251.23:4444/wd/hub"),
         DesiredCapabilities.firefox());
   }
 
